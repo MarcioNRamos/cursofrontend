@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(rgb(32, 63, 7), green, blue);
+width: 100vw;
+height: 100vw;
+}
+.container {
+
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+margin: 50px;
+width: 400px;
+height: 600px;
+}
+
+img {
+    width: 1200px;
+    height:2000px ;
+    
+}
+form {
+
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.campus {
+    margin: 2em;
+    display:block
+}
+@media (max-width: 712px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+

@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+<h1>
+    Javascript
+</h1>
+<script>
+    // 3 caixas de dialogo mis usadas
+   //alert('otario vc nao sabe programar');
+  // prompt('informe seu nome'); 
+ //  confirm('tem certeza energumo') 
+
+</script>
+<script scr="./script.js></script>
+</body>
+</html>
+
+

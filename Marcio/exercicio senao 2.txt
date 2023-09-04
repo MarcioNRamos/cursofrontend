@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+   cadeia nome 
+   inteiro idade
+
+   escreva("informe seu nome: ") 
+   leia(nome)
+   escreva("informe idade: ") 
+  
+   leia(idade) 
+
+  limpa()
+
+  se (idade >= 18) {
+  escreva("voce é maior de idade")
+  }
+  senao 
+  {
+   escreva(" voce é menor de idade")
+}
+}

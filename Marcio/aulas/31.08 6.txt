@@ -1,0 +1,15 @@
+var n1 = 'marcio'
+
+var n2 = 10
+var soma = null
+
+var caneca = {
+    nome: 'teu cu',
+    cor: 'colorida',
+    educativa: true
+}
+
+var exVetor = ['caneca', 'café']
+
+console.log(exVetor)
+console.log(typeof(exVetor))

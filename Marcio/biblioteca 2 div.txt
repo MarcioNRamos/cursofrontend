@@ -1,0 +1,18 @@
+
+programa {
+inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    inteiro  numero1, numero2
+    real resultado = 0
+
+    escreva("informe um numero1 ")
+    leia(numero1)
+    escreva("informe um numero2 ")
+    leia(numero2)
+
+
+    resultado = numero1 / numero2
+
+    escreva(resultado)
+  }
+}

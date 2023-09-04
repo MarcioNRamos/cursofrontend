@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro numero, soma = 0
+
+    enquanto (numero != 0){
+      escreva("informe un mumero ")
+      leia(numero)
+      soma<=numero
+  }
+}

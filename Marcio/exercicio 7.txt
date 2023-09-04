@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+  real grausc , grausf 
+  escreva (" escreva temperatura em graus:")
+  leia(grausc)
+  
+grausf = (9*grausc+160)/5 
+
+escreva (" a temperatura é:", grausf)
+  
+
+  }
+}

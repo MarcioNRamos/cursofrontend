@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+   inteiro numero1, numero2
+   escreva (" informe numero a ")
+   leia(numero1)
+   escreva (" informe numero b ")
+   leia(numero2)
+   numero1 = numero2
+   numero2 = numero1
+   escreva ( " o numero a é : " , numero1 )
+   escreva ( " o numero b é : " , numero2 )
+  }
+}

@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+  real produtovalor , parcelavalor
+  escreva (" informe o valor do produto: ")
+  leia(produtovalor)
+  
+  parcelavalor = produtovalor / 5
+
+  
+
+  escreva ( " sua parcela sera: ",  parcelavalor )
+  }
+}

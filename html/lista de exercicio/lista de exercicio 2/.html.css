@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 1%;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+        }
+        li{
+            display: block;
+        }
+        ul > li > p {
+            display: block;
+        }
+        h2 {
+            font-size: ;
+        }
+        span{
+            color: rgb(226, 8, 8);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <body style=" background-color: rgb(250, 249, 249);">
+        
+        <h1 style="color: black ; text-align:center; font-family: Tahoma, ;"> <b>Marcio Ramos</b></h1>
+        
+            <p style="text-align: center;">
+          <p></p>  <img src="../../imagens/mr.jpg"  width="150px"><br>
+        
+        <br>
+         Meu nome é Marcio Ramos, sou amante de tecnologia, estou inicianado minha cerreira de tecnologia dando inocio no curso de front-end para aprender e praticar as mais diversas tesnologias de desenvolvimento
+        </br>
+        <h2>
+            Con<span>tacte</span>
+        </h2>
+        <img src="../../imagens/git.png"  width="50px">
+        
+
+        <a href="https:/github.com/w3c/html">Github</a>
+        <br>
+        <br>
+        <img src="../../imagens/face.png"  width="50px">
+        <a href="../front-end/html/imagens/face">Facebook</a>
+        <br>
+        <br>
+        <img src="../../imagens/instagran.jpg"  width="50px">
+        <a href="../front-end/html/imagens/face">Instagran</a>
+        <br>
+        <br>
+        <img src="../../imagens/linkendin.png"  width="50px">
+        <a href="../front-end/html/imagens/face">linkedin</a>
+
+        
+        
+        
+</body>
+</html>

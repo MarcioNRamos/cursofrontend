@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro numero1 , numero2 , soma
+    inteiro numero1 , numero2 , divisao
+    inteiro numero1 , numero2 , subtracao
+    inteiro numero1 , numero2 , multiplicacao
+// Aqui eu recebo o primeiro numero
+    escreva("digite o primeiro numero ")
+    leia(numero1)
+
+    escreva("digite o primeiro numero ")
+    leia(numero2)
+
+    soma= numero1 + numero2
+
+    escreva("\n a soma é : ", soma , )
+    escreva("\n a multiplicação é : ", multiplicacao)
+    escreva("\n a divisao é : ", divisao)
+    escreva("\n a subitração é : ", divisao)
+    escreva("\n Hello Word!")
+  }
+}

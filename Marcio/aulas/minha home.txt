@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 1%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+        }
+        li{
+            display: block;
+        }
+        ul > li > p {
+            display: block;
+        }
+   
+        span{
+            color: rgb(105, 41, 41);
+        }
+        img {
+
+            align-items: center;
+
+        }
+        #marcio{
+         display: flex;
+        }
+    </style>
+</head>
+<body>
+    
+    <body style=" background-color: rgb(224, 212, 212);">
+        
+        <h1 style="color: black ; text-align:center; font-family: Tahoma, ;"> Marcio Ramos</h1>
+        
+            <p style="text-align: center;">
+          <p></p>  <img src="../../imagens/mr.jpg"  width="250px" style="align-items: center; border-radius: 100%;"><br>
+        
+        <br>
+        <div style="text-align: center; width: 50%; margin: 0 auto;">
+            <p>Olá, meu nome é <b>Marcio Ramos</b> Trabalho com Desenvolvimento de Sistemas. Busco expandir meus conhecimentos e habilidades.</p>
+            <p>Aprender, buscar e explorar novas tecnologias sempre foi e sempre será minha meta.</p>
+            <p>Minha maior virtude e trabalhar em equipe procurando novos desafios profissionais e uma efetivação no mercado, tendo o desenvolvimento de minhas habilidades e a geração de resultados como objetivo, viabilizando um crescimento qualitativo e quantitativo.</p>
+           </div>
+        </br>
+        <h2>Contato</h2>
+        <div id="marcio">
+        
+        <a href="https:/github.com/w3c/html">
+            <img src="../../imagens/git.png"  width="50px" style="border-radius: 100%;">
+        </a>
+        
+        <a href="../front-end/html/imagens/face"><img src="../../imagens/face.png"  width="50px" style="border-radius: 100%;"></a>
+        
+        <a href="../front-end/html/imagens/face"><img src="../../imagens/instagran.jpg"  width="50px" style="border-radius: 3cqb;"></a>
+        
+        <a href="../front-end/html/imagens/face"><img src="../../imagens/linkendin.png"  width="50px" style="border-radius: 10%;"></a>
+        </div>
+
+        <h2>Cursos</h2>
+            <ul class="cursos-lista">
+                <li>
+                    <p><strong>Desenvolvedor Front-end</strong></p>
+                    <p><strong>Instituição:</strong> SENAI</p>
+                    <p><strong>Descrição:</strong>Que visa apresentar como trabalhar de forma integrada com as linguagens HTML, CSS e JavaScript para construir páginas web funcionais e com interações ricas, descrevendo o papel de cada uma destas linguagens nas camadas de desenvolvimento front-end e seguindo as boas práticas do mercado</p>
+                </li>
+                <li>
+                    <p><strong>Técnico em Informática</strong></p>
+                    <p><strong>Instituição:</strong> SENAC</p>
+                    <p><strong>Descrição:</strong>Desempenhar atividades ligadas a montagem e manutenção de microcomputadores, instalação e configuração de redes, desenvolvimento de sistemas e websites, etc.</p>
+                </li>
+                <li>
+                    <p><strong>Manutenção de Notebook</strong></p>
+                    <p><strong>Instituição:</strong> CAPACITA TI</p>
+                    <p><strong>Descrição:</strong>Serviços de reparo, manutenção configuração em notebooks</p>
+                </li>
+</body>
+</html>

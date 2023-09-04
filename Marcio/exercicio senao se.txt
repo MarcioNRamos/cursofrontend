@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+   cadeia nome 
+   inteiro idade
+
+   escreva("informe seu nome: ") 
+   leia(nome)
+   escreva("informe idade: ") 
+  
+   leia(idade) 
+
+  limpa()
+
+  se (idade >= 18) {
+  escreva("voce pode tirar carteira ")
+  }
+  senao 
+  {
+     escreva("voce nao pode tirar carteira ")
+}
+senao se (idade > 80) < 120 {
+  escreva("sua idade esta elevada")
+  }
+}

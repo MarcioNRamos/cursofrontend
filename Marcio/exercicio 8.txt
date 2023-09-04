@@ -1,0 +1,12 @@
+
+programa {
+  funcao inicio() {
+  real quantidade_dolares , dolar_cotacao , valoremreal
+  escreva (" informe a cotação do dolar do dia: ")
+  leia(quantidade_dolares)
+  escreva (" informe quantod dolares deseja  converter: ")
+  leia(dolar_cotacao)
+  valoremreal = quantidade_dolares * dolar_cotacao
+  escreva ( " o valor do dolar é: ", valoremreal )
+  }
+}

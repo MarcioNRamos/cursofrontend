@@ -1,0 +1,39 @@
+programa {
+  funcao inicio() {
+    inteiro distancia , litros , divisao
+// Aqui eu recebo o primeiro numero
+    escreva("digite distancia ")
+    leia(distancia)
+
+    escreva("digite os litros ")
+    leia(litros)
+
+    divisao = distancia / litros
+
+    escreva("\n a media é : ", divisao )
+    escreva("\n Hello Word!")
+  }
+}
+
+
+programa {
+  funcao inicio() {
+    cadeia nome
+    real  salario_fixo , salario_final , comissao vendas , 
+    
+    escreva(" qual seu nome pobre vendedor ")
+    leia(vendedor)
+
+    escreva(" qual sua merreca ")
+    leia(salario_fixo)
+
+    escreva(" quanto sua mmerreca sua merreca ")
+    leia(salario_fixo)
+
+    escreva(" qto sua merreca rendeu? ")
+    leia(vendas)
+
+      comissao =  vendas / 100 * 15
+      salario_final = comissao + salario_fixo
+  
+        escreva("\n a divisao é : ", divisao)

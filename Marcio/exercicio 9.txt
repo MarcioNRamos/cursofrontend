@@ -1,0 +1,14 @@
+
+programa {
+  funcao inicio() {
+  real quantidade_deposito , valorrendimento
+  escreva (" informe o valor do deposito: ")
+  leia(quantidade_deposito)
+  
+  valorcomrendimento = quantidade_deposito + ( valorrendimento * 0.007)
+
+  
+
+  escreva ( " seu rendimento sera: ", valorcomrendimento )
+  }
+}

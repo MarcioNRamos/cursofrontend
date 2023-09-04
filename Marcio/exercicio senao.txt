@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+   cadeia nome 
+   caracter turno
+
+   escreva("informe seu nome: ") 
+   leia(nome)
+   escreva("informe seu turno de trabalho \n") 
+   escreva("Manha: m \n") 
+   escreva("Tarde: t \n")
+   leia(turno) 
+
+  limpa()
+
+  se turno == 'm' {
+  escreva("bom dia ", nome)
+  }
+  senao se turno == 't'
+  {
+
+  escreva("boa tarde ", nome)
+  }
+  senao se turno == 'n' {
+  escreva("boa noite ", nome)
+  }
+senao {
+  escreva(" Turno invalido")
+}
+}

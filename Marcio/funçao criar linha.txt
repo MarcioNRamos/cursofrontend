@@ -1,0 +1,13 @@
+
+programa {
+  funcao criar_linha(){
+      escreva("\n ---------------------- \n")
+  }
+  funcao inicio() {
+      criar_linha()
+    escreva("escolha um filma! \n")
+    escreva("01  -  barbie \n")
+    escreva("02  -  oppenheimer \n")
+    criar_linha()
+  }
+}

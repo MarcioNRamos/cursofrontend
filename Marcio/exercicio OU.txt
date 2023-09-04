@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+       cadeia ele , ela
+      caracter resposta_aladin, resposta_jasmin
+       
+   escreva(" aladim foi ao encontro? (s / n) ") 
+   leia(resposta_aladin)  
+   escreva("jasmin foi ao encontro: ( s / n) ") 
+   leia(resposta_jasmin)
+
+   se (resposta_aladin == 's' ou resposta_jasmin == 's'){
+      escreva("houve um encontro")
+  }
+  senao {
+      escreva("nao houve um encontro")
+  }
+}
+
+

@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    cadeia vendedor
+    inteiro  salario , vendas , 
+    real divisao    
+// Aqui eu recebo o primeiro numero
+    escreva(" vendedor ")
+    leia(vendedor)
+
+    escreva(" salario ")
+    leia(salario)
+
+     escreva(" vendas ")
+    leia(vendas)
+
+        divisao =  (vendas / 100) * 15
+
+        escreva("\n a divisao é : ", divisao)
+    
+  }
+}

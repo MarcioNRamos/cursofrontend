@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    
+</head>
+<body>
+    
+    <form action="formulario.js">
+        <div>
+            <label for="">Nome: </label>
+            <input type="test" id="inome" name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="">Sobrenome: </label>
+            <input type="test" id="isobrenome" name="sobrenome">
+        </div>
+           <br>    
+        <input type="submit"> <!--E enviar os dados-->
+        
+
+    </form>
+
+    <hr>
+    <h2>Login</h2>
+        <form action="login.js" method="POST">
+    <div>
+        <label for="imail">Email</label>
+        <input type="test" id="iemail"
+        name="imail">
+    </div>
+    <br>
+    <div>
+        <label for="isenha">Senha</label>
+        <input type="password" id="isenha" name="senha">
+        
+    </div>
+    <br>
+    <input type="submit">
+
+    </form>
+
+</body>
+</html>

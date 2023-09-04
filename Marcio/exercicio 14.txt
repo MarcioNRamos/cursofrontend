@@ -1,0 +1,21 @@
+
+programa {
+  funcao inicio() {
+  /*
+  EXERCICIO 14- Crie um algoritmo que calcule a are de um triangulo 
+  recebendo somente a sua altura e largura de base
+  */
+  
+  real base , altura , area
+  escreva (" Informe a altura: ")
+  leia(altura)
+  
+  escreva (" Informe a largura: ")
+  leia(base)
+    
+  area = altura * base / 2
+
+   
+  escreva ( " a area do triangulo será ", area )
+  }
+}

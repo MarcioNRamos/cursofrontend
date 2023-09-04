@@ -1,0 +1,16 @@
+
+programa {
+  funcao inicio() {
+  real valorCusto , valorVenda
+  escreva (" informe o valor de custo: ")
+  leia(valorCusto)
+  
+  escreva (" quantos porcento sera adicionado ao valor real: ")
+  leia(acrecimento)
+  
+  valorVenda = valorCusto + ((valorCusto / 100) * acrecimento)
+
+  
+  escreva ( " seu valor com rendimento sara: ", valorVenda )
+  }
+}

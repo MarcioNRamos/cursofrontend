@@ -1,0 +1,3 @@
+variavel sempre em letra miniscula
+sempre numero e letras junto
+sempre separado por virgula

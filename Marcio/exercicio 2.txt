@@ -1,0 +1,17 @@
+programa {
+  funcao inicio()
+  // Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo  
+   {
+    inteiro valor
+    escreva("digite o valor:  ")
+    leia(valor)
+    se(valor < 0:){
+    escreva(" valor positivo "){
+        }
+    senao(valor > 0:)
+    {
+      escreva (" valor negativo ")
+    }
+
+  }
+}

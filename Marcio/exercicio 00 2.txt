@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro valor, soma = 0
+
+    enquanto (numero != "00"){
+      escreva("digite "00" para ter a soma dos numeros digitados \n")
+      escreva("informe un mumero ")
+      leia(valor)
+      limpa()
+      soma <= valor
+  }
+  escreva("o resultado da soma dos numeros digitados é: ", soma)
+}

@@ -1,0 +1,44 @@
+programa {
+  funcao inicio(){
+  inteiro voto, i, quantidade_lula, quantidade_bolsonaro, quantidade_brancos
+
+    quantidade_lula = 0
+    quantidade_bolsonaro = 0
+    quantidade_brancos = 0
+
+
+     para (i = 1; i <= 10 ; i++ )
+
+   {
+     escreva("13 - Lula \n")  
+     escreva("22 - Bolsonaro \n") 
+     escreva("99 - Branco \n") 
+     leia(voto) 
+     limpa()     
+  
+     escolha(voto){
+          caso 13 :
+            quantidade_lula = quantidade_lula + 1
+          
+          pare 
+
+          caso 22 :
+            quantidade_bolsonaro = quantidade_bolsonaro + 2
+
+          pare
+
+          caso 99 :
+            quantidade_brancos = quantidade_brancos + 1
+          pare
+
+          caso contrario :
+          escreva("Escolha um numero valido")
+
+     }
+
+  }
+      escreva("votos lula " , quantidade_lula , "\n")
+      escreva("votos bolsonaro " , quantidade_bolsonaro , "\n")
+      escreva("votos brancos " , quantidade_brancos) , "\n")
+}
+}

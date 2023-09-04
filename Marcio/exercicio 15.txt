@@ -1,0 +1,21 @@
+
+programa {
+  const real pi = 3.1415
+
+  funcao inicio() {
+  /*
+  EXERCICIO 15-Crie um algoritmo capas de calcular a área de um circulo,
+  recebendo somente a medida de seu raio.
+  */
+  
+  real raio , area
+  escreva (" Informe raio do seu circulo: ")
+  leia(raio)
+  
+     
+  area = pi * (raio * raio)
+
+   
+  escreva ( " a area do seu redondo será ", area )
+  }
+}

@@ -1,0 +1,21 @@
+
+programa {
+  funcao inicio() {
+  /*
+  EXERCICIO 13- Crie um algoritmo capas de calcular a área de um retângulo qualquer 
+  para isso ele deve receber somente a medida de seus lados em centímetros
+  */
+  
+  real altura , largura , area
+  escreva (" Informe a altura: ")
+  leia(altura)
+  
+  escreva (" Informe a largura: ")
+  leia(largura)
+    
+  area = altura * largura
+
+   
+  escreva ( " a area do retangula será ", area )
+  }
+}

@@ -1,0 +1,42 @@
+programa {
+  funcao inicio() {
+    real a , b , c , delta, raizZero , raizNegativa, raizPositiva, multi = 0, deltaq = 1
+
+    escreva ("informe o valor de a: ")
+    leia(a)
+
+    se (a != 0){
+      escreva( "informe o valor de b: ")
+      leia(b)
+      escreva( "informe o valor de c: ")
+      leia(c)
+      limpa
+      //b ao quadrado  - 4 ac formula que calcula o delta
+      delta = (b * b)- 4 a *c
+      se (delta < 0){
+         escreva ( " delta negativo a equação não possui raízes reais")
+      } 
+      senao {
+        se (delta == 0) {
+          raizZero (-1 * b)/2 * a  
+          escreva(" seu delta é igual a zero e possui apenas  uma raiz: ", raizZero)
+        }
+        senao se  (delta > 0){
+           para (inteiro i = 1: multi < delta; i++ ) {
+            multi + 1 * 1
+               deltaq = 1
+           }
+           raizPositivo = (( -1 * b) + deltaq /(2*a))
+           raizNegativo = (( -1 * b) - deltaq /(2*a))
+
+           escreva ( " como a é igual a 0 a equação não é do segundo grau ")
+
+        }
+      }
+    }
+    senao
+    {
+     escreva ( "")
+    }
+  }
+}

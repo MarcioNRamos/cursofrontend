@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    
+</head>
+<body>
+    <p>Formulário</p>
+    
+    <form action="formulario.js">
+        <div>
+            <label for="">Nome: </label>
+            <input type="test" id="inome" name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="">Sobrenome: </label>
+            <input type="test" id="isobrenome" name="sobrenome">
+        </div>
+           <br>    
+        <input type="submit"> <!--E enviar os dados-->
+        
+
+    </form>
+
+    <hr>
+    <h2>Login</h2>
+        <form action="login.js" method="POST">
+    <div>
+        <label for="imail">Email</label>
+        <input 
+        type="test" 
+        id="iemail"
+        name="imail"
+        placeholder="exemplo@exmplo.com" 
+        >
+    </div>
+    <br>
+    <div>
+        <label for="isenha">Senha</label>
+        <input 
+        type="password" 
+        id="isenha" 
+        name="senha" 
+        maxlength="16" 
+        minlength="8"
+        >
+        
+    </div>
+    <br>
+    <div>
+        <label for="inascimento"></label>Nascimento: 
+        <input 
+        type="test" 
+        id="inascimento"
+        imput type="date" required
+        id="inascimento" name="nascimento"
+        >
+    </div>
+    <br>
+    <div>
+        <label for="icolor">Selecione cor</label>
+        <input type="color" 
+        id="icolor" 
+        name="color" 
+        value="#00ff00">
+       
+    </div>
+    <br>
+    <div>
+        <label for="ifile">Anexe a foto</label>
+        <input type="file" id="ifile"
+        name="range" max="5" min="1">
+    </div>
+    <br>
+    <input type="submit" value="cadastrar">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+    cadeia Aluno
+    real media
+    inteiro nota1 , nota2 , nota3
+// Aqui eu recebo o primeiro numero
+    escreva(" nota1 ")
+    leia(nota1)
+
+    escreva(" nota2 ")
+    leia(nota2)
+
+    escreva(" nota3 ")
+    leia(nota3)
+
+    media = ((nota1 + nota2 + nota3) / 3)
+
+    escreva("\n a media do aluno é : ", media )
+    escreva("\n Hello Word!")
+  }
+}

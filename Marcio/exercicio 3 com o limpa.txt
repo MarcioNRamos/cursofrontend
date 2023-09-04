@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro distancia , litros 
+    real divisao
+// Aqui eu recebo o primeiro numero
+  limpa
+    escreva("digite distancia ")
+    leia(distancia)
+
+    escreva("digite os litros ")
+    leia(litros)
+
+    divisao = distancia / litros
+
+    escreva("\n seu consumo é : ", divisao )
+      }
+}
