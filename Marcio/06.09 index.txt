@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<style>
+
+.erro{
+    border: 2px red;
+}
+
+</style>
+<body>
+    <p style="text-align: justify;">
+        <img src="/html/orkut.png" alt="wolbert" width="320px" height="auto"><br>
+    
+
+  <form action="#" method="post">
+    <div>
+        <label for="loguin">loguin</label>
+        <input type="text" id="loguin" name="name">
+         </div>
+         <br>
+    <div>  
+        <label for="senha">senha</label>
+        <input type="passoword" id="senha" name="senha">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="entrar">
+    </div>            
+        
+    </form>
+    <script src="../0609 2/script.js"></script>
+</body>
+</html>
